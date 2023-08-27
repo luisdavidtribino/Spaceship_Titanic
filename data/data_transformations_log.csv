@@ -1,1 +1,3 @@
-﻿columna;transformacion;Justificacion ;Fecha y hora
+﻿columna;transformacion;Justificacion ;Fecha y hora;solucion
+analisis general;eliminar registros con mas de 3 valores nulos;La eliminación de registros con múltiples valores nulos en un conjunto de datos es esencial para mantener la integridad y precisión de los análisis y modelos. Estos registros pueden distorsionar los resultados, afectar la interpretación y aumentar la carga computacional. La eliminación garantiza un análisis más fiable, eficiente y comprensible, contribuyendo a resultados más confiables y una presentación más efectiva de los datos.;26/08/2023;"rows_with_3_nulls = train_data[train_data.isnull().sum(axis=1) == 3]
+train_data = train_data.drop(rows_with_3_nulls.index)"
