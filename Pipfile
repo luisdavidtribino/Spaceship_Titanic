@@ -4,9 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+ydata_profiling = "*"
 notebook = "*"
 pandas = "*"
 seaborn = "*"
+pandasgui = "*"
+ipywidgets = "*"
 
 [dev-packages]
 
